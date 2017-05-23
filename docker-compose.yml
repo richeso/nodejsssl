@@ -15,7 +15,7 @@ services:
       - "5001:8001"
     environment:
       - SSL_EMAIL="richard.cheso@gmail.com"
-      - SSL_DOMAINS="supermegaquest.com"
+      - SSL_DOMAINS="localhost,supermegaquest.com"
       - SSL_ENABLED="true"
       - SSL_PROD="false"
        
